@@ -1,0 +1,38 @@
+<!--Daehyeon Park, EIRfu-24-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercise #1 Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form>
+        <label for="country">Country:</label>
+        <select id="country" name ="country" required>
+            <option value=""> --Select Country--</option>
+            <option value="lt">Lithuania</option>
+            <option value="lv">Latvia</option>
+            <option value="sp">Spain</option>
+            <option value="kr">South Korea</option>
+            <option value="etc">Other</option>
+            
+        </select>
+        <br><br>
+
+        <fieldset>
+            <legend> Account Details</legend>
+            <label for ="username">Username :</label>
+            <input type ="text" id="username" name="username" required>
+            <br><br>
+
+            <label for="password">Password :</label>
+            <input type ="text" id="password" name="password" required>
+            <br><br>
+        </fieldset>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+    </form>
+</body>
+</html>
